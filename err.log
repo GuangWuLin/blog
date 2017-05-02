@@ -1,0 +1,101 @@
+2017-04-12T10:36:00.683738+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2017-04-12T10:36:00.684030+00:00 app[web.1]: npm ERR! errno ENOENT
+2017-04-12T10:36:00.684316+00:00 app[web.1]: npm ERR! syscall spawn
+2017-04-12T10:36:00.684750+00:00 app[web.1]: npm ERR! myblog@1.0.0 start: `cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'myblog'`
+2017-04-12T10:36:00.684975+00:00 app[web.1]: npm ERR! spawn ENOENT
+2017-04-12T10:36:00.685134+00:00 app[web.1]: npm ERR!
+2017-04-12T10:36:00.685295+00:00 app[web.1]: npm ERR! Failed at the myblog@1.0.0 start script 'cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'myblog''.
+2017-04-12T10:36:00.685554+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the myblog package,
+2017-04-12T10:36:00.685684+00:00 app[web.1]: npm ERR! not with npm itself.
+2017-04-12T10:36:00.685417+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2017-04-12T10:36:00.685820+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2017-04-12T10:36:00.685958+00:00 app[web.1]: npm ERR!     cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'myblog'
+2017-04-12T10:36:00.686093+00:00 app[web.1]: npm ERR! You can get information on how to open an issue for this project with:
+2017-04-12T10:36:00.686229+00:00 app[web.1]: npm ERR!     npm bugs myblog
+2017-04-12T10:36:00.686362+00:00 app[web.1]: npm ERR! Or if that isn't available, you can get their info via:
+2017-04-12T10:36:00.686498+00:00 app[web.1]: npm ERR!     npm owner ls myblog
+2017-04-12T10:36:00.686633+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2017-04-12T10:36:00.690290+00:00 app[web.1]:
+2017-04-12T10:36:00.690537+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2017-04-12T10:36:00.690682+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2017-04-12T10:36:00.753691+00:00 heroku[web.1]: State changed from starting to crashed
+2017-04-12T10:36:00.760699+00:00 heroku[web.1]: Process exited with status 1
+2017-04-12T10:36:00.754658+00:00 heroku[web.1]: State changed from crashed to starting
+2017-04-12T10:36:02.743157+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-04-12T10:36:05.185435+00:00 app[web.1]:
+2017-04-12T10:36:05.185450+00:00 app[web.1]: > myblog@1.0.0 start /app
+2017-04-12T10:36:05.185451+00:00 app[web.1]: > cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'myblog'
+2017-04-12T10:36:05.185452+00:00 app[web.1]:
+2017-04-12T10:36:05.190774+00:00 app[web.1]: sh: 1: cross-env: not found
+2017-04-12T10:36:05.194842+00:00 app[web.1]:
+2017-04-12T10:36:05.202167+00:00 app[web.1]: npm ERR! Linux 3.13.0-112-generic
+2017-04-12T10:36:05.202374+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2017-04-12T10:36:05.202524+00:00 app[web.1]: npm ERR! node v6.10.2
+2017-04-12T10:36:05.202661+00:00 app[web.1]: npm ERR! npm  v3.10.10
+2017-04-12T10:36:05.202781+00:00 app[web.1]: npm ERR! file sh
+2017-04-12T10:36:05.202920+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2017-04-12T10:36:05.203047+00:00 app[web.1]: npm ERR! errno ENOENT
+2017-04-12T10:36:05.203261+00:00 app[web.1]: npm ERR! syscall spawn
+2017-04-12T10:36:05.203519+00:00 app[web.1]: npm ERR! myblog@1.0.0 start: `cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'myblog'`
+2017-04-12T10:36:05.203602+00:00 app[web.1]: npm ERR! spawn ENOENT
+2017-04-12T10:36:05.203706+00:00 app[web.1]: npm ERR!
+2017-04-12T10:36:05.203808+00:00 app[web.1]: npm ERR! Failed at the myblog@1.0.0 start script 'cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'myblog''.
+2017-04-12T10:36:05.203894+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2017-04-12T10:36:05.203984+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the myblog package,
+2017-04-12T10:36:05.204121+00:00 app[web.1]: npm ERR! not with npm itself.
+2017-04-12T10:36:05.204277+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2017-04-12T10:36:05.204390+00:00 app[web.1]: npm ERR!     cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'myblog'
+2017-04-12T10:36:05.204458+00:00 app[web.1]: npm ERR! You can get information on how to open an issue for this project with:
+2017-04-12T10:36:05.204545+00:00 app[web.1]: npm ERR!     npm bugs myblog
+2017-04-12T10:36:05.204648+00:00 app[web.1]: npm ERR! Or if that isn't available, you can get their info via:
+2017-04-12T10:36:05.204730+00:00 app[web.1]: npm ERR!     npm owner ls myblog
+2017-04-12T10:36:05.204817+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2017-04-12T10:36:05.208102+00:00 app[web.1]:
+2017-04-12T10:36:05.208326+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2017-04-12T10:36:05.208410+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2017-04-12T10:36:05.277286+00:00 heroku[web.1]: Process exited with status 1
+2017-04-12T10:36:05.288165+00:00 heroku[web.1]: State changed from starting to crashed
+2017-04-12T10:36:11.393724+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=agile-ridge-90962.herokuapp.com request_id=2f29d4d0-c203-4a2a-a9f0-28158f9019e9 fwd="45.63.55.18" dyno= connect= service= status=503 bytes= protocol=https
+2017-04-12T10:36:22.452059+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=agile-ridge-90962.herokuapp.com request_id=af00a477-7f3b-456c-a24d-6160eab10e95 fwd="180.163.1.46" dyno= connect= service= status=503 bytes= protocol=http
+2017-04-12T10:38:06.156697+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=agile-ridge-90962.herokuapp.com request_id=5bc223d9-5f37-4934-b792-1abe4339899d fwd="45.63.55.18" dyno= connect= service= status=503 bytes= protocol=https
+2017-04-12T10:42:30.000000+00:00 app[api]: Build started by user sky_smxr@foxmail.com
+2017-04-12T10:42:39.655737+00:00 app[api]: Release v4 created by user sky_smxr@foxmail.com
+2017-04-12T10:42:39.655737+00:00 app[api]: Deploy 3452cd7 by user sky_smxr@foxmail.com
+2017-04-12T10:42:40.048784+00:00 heroku[web.1]: State changed from crashed to starting
+2017-04-12T10:42:39.857655+00:00 app[api]: Release v4 created by user sky_smxr@foxmail.com
+2017-04-12T10:42:30.000000+00:00 app[api]: Build succeeded
+2017-04-12T10:42:41.962345+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-04-12T10:42:44.128863+00:00 app[web.1]: > myblog@1.0.0 start /app
+2017-04-12T10:42:44.128864+00:00 app[web.1]: > cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'myblog'
+2017-04-12T10:42:44.128864+00:00 app[web.1]:
+2017-04-12T10:42:44.139069+00:00 app[web.1]:
+2017-04-12T10:42:44.134760+00:00 app[web.1]: sh: 1: cross-env: not found
+2017-04-12T10:42:44.128843+00:00 app[web.1]:
+2017-04-12T10:42:44.146242+00:00 app[web.1]: npm ERR! Linux 3.13.0-112-generic
+2017-04-12T10:42:44.146606+00:00 app[web.1]: npm ERR! node v6.10.2
+2017-04-12T10:42:44.146450+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2017-04-12T10:42:44.146999+00:00 app[web.1]: npm ERR! file sh
+2017-04-12T10:42:44.146805+00:00 app[web.1]: npm ERR! npm  v3.10.10
+2017-04-12T10:42:44.147188+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2017-04-12T10:42:44.147570+00:00 app[web.1]: npm ERR! syscall spawn
+2017-04-12T10:42:44.148410+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2017-04-12T10:42:44.147974+00:00 app[web.1]: npm ERR! spawn ENOENT
+2017-04-12T10:42:44.148274+00:00 app[web.1]: npm ERR! Failed at the myblog@1.0.0 start script 'cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'myblog''.
+2017-04-12T10:42:44.147382+00:00 app[web.1]: npm ERR! errno ENOENT
+2017-04-12T10:42:44.148128+00:00 app[web.1]: npm ERR!
+2017-04-12T10:42:44.148548+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the myblog package,
+2017-04-12T10:42:44.148940+00:00 app[web.1]: npm ERR!     cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'myblog'
+2017-04-12T10:42:44.148670+00:00 app[web.1]: npm ERR! not with npm itself.
+2017-04-12T10:42:44.149072+00:00 app[web.1]: npm ERR! You can get information on how to open an issue for this project with:
+2017-04-12T10:42:44.148804+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2017-04-12T10:42:44.149205+00:00 app[web.1]: npm ERR!     npm bugs myblog
+2017-04-12T10:42:44.149471+00:00 app[web.1]: npm ERR!     npm owner ls myblog
+2017-04-12T10:42:44.149334+00:00 app[web.1]: npm ERR! Or if that isn't available, you can get their info via:
+2017-04-12T10:42:44.149607+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2017-04-12T10:42:44.147845+00:00 app[web.1]: npm ERR! myblog@1.0.0 start: `cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'myblog'`
+2017-04-12T10:42:44.153011+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2017-04-12T10:42:44.152811+00:00 app[web.1]:
+2017-04-12T10:42:44.153118+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2017-04-12T10:42:44.260803+00:00 heroku[web.1]: State changed from starting to crashed
+2017-04-12T10:42:44.238453+00:00 heroku[web.1]: Process exited with status 1
+2017-04-12T10:43:01.026149+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=agile-ridge-90962.herokuapp.com request_id=7d23a61a-11ae-4400-b7bf-0b4f134906b7 fwd="45.63.55.18" dyno= connect= service= status=503 bytes= protocol=https
